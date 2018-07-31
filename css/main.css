@@ -1,0 +1,257 @@
+* {
+  /*background: rgba(0, 0, 0, .1);*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: background 200ms;
+  -moz-transition: background 200ms;
+  -ms-transition: background 200ms;
+  -o-transition: background 200ms;
+  transition: background 200ms;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #555;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.top-nav {
+  background-color: #eee;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-nav .item {
+  display: inline-block;
+  color: #666;
+  padding: 6px 20px;
+}
+
+.span .item {
+  display: inline-block;
+  color: #666;
+  padding: 6px 20px;
+}
+
+.container:before, .container:after, .clearf:before, .clearf:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.header .logo {
+  background-image: url(../img/logo.png);
+  background-size: contain;
+  height: 60px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.header .search-bar {
+  border: 2px solid #dd182b;
+}
+
+.header input,
+.header .search-bar button {
+  padding: 6px 20px;
+  border: 0;
+  outline: 0;
+}
+
+.header .search-bar button {
+  background: #dd182b;
+  color: #fff;
+}
+
+.header .cart .trigger {
+  padding: 6px 20px;
+  background: #fff;
+  color: #dd182b;
+  text-align: center;
+  margin-left: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.main-promote .cat {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  background: #6e6568;
+  color: #fff;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(110, 101, 104);
+  background-image: none;
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat-x: ;
+  background-repeat-y: ;
+  background-size: auto;
+}
+
+.main-promote .cat .row {
+  padding: 12px 20px;
+}
+
+.main-promote .cat .row:hover {
+  background: #5d5558;
+}
+
+.main-promote .sub-promote {
+  background: #fff;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  padding: 10px;
+}
+
+.main-promote .sub-promote>* {
+  padding-bottom: 10px;
+}
+
+.main-promote .sub-promote .avatar {
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: left;
+  background: #ccc;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.main-promote .auth {
+  margin-top: 10px;
+}
+
+.main-promote .auth button {
+  border: 2px solid #dd182b;
+  background: transparent;
+  color: #dd182b;
+  width: 40%;
+}
+
+.main-promote .cat,
+.main-promote .sub-promote {
+  height:  504px;
+}
+
+.carousel {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+.slick-slide {
+  display: block;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+.card {
+  height: 300px;
+  margin: 5px;
+  background: #e5e7dd;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  /*border: 1px solid #ccc;*/
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+.promote-title {
+  font-size: 22px;
+}
+
+.promote-title:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 22px;
+  margin-right: 10px;
+  vertical-align: middle;
+  background: #dd182b;
+}
+
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10 {
+  position: relative;
+  float: left;
+  min-height: 1px;
+}
+
+.col1 {
+  width: 10%;
+}
+
+.col2 {
+  width: 20%;
+}
+
+.col3 {
+  width: 30%;
+}
+
+.col4 {
+  width: 40%;
+}
+
+.col5 {
+  width: 50%;
+}
+
+.col6 {
+  width: 60%;
+}
+
+.col7 {
+  width: 70%;
+}
+
+.col8 {
+  width: 80%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  background: #eee;
+  padding: 50px 0;
+  color: #999;
+}
+
+.footer a {
+  color: #999;
+  margin-left: 10px;
+}
